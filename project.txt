@@ -1,0 +1,11 @@
+{
+"kind": "ProjectRequest",
+    "apiVersion": "v1",
+    "metadata": {
+      "name": "{{.Name}}",
+      "annotations": {
+        "openshift.io/description": "Das ist ein Test-Project",
+        "openshift.io/display-name": "{{.DisplayName}}",
+      }
+    },
+  }
